@@ -1,15 +1,30 @@
 {
   "projects": [
     {
-      "name": "Novo Projeto",
+      "name": "Projeto Atualizado",
       "budget": "10000",
       "category": {
-        "id": "1",
-        "name": "Infra"
+        "id": "2",
+        "name": "Desenvolvimento"
       },
-      "costs": 0,
-      "services": [],
-      "id": 1
+      "cost": 10000,
+      "services": [
+        {
+          "name": "Testando",
+          "cost": "5000",
+          "description": "Teste 1",
+          "id": "b78e35d5-800f-47d6-98be-8301a7fef145"
+        },
+        {
+          "name": "Testando 2",
+          "cost": "5000",
+          "description": "Teste 2",
+          "id": "fbae03aa-1f0d-433d-8784-27a21ec78ae4"
+        }
+      ],
+      "id": 1,
+      "": 0,
+      "costs": 0
     },
     {
       "name": "Novo Projeto 1",
@@ -18,8 +33,15 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "costs": 0,
-      "services": [],
+      "cost": 150,
+      "services": [
+        {
+          "name": "Projeto Inicial",
+          "cost": "150",
+          "description": "Teste",
+          "id": "3a76ffc7-d108-4b7c-831c-ab880cdb1a37"
+        }
+      ],
       "id": 2
     },
     {
@@ -29,7 +51,7 @@
         "id": "3",
         "name": "Design"
       },
-      "costs": 0,
+      "cost": 0,
       "services": [],
       "id": 3
     },
@@ -40,9 +62,25 @@
         "id": "4",
         "name": "Planejamento"
       },
-      "costs": 0,
+      "cost": 0,
       "services": [],
       "id": 4
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "id": 5
+    },
+    {
+      "name": "Moisas",
+      "budget": "5000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 6
     }
   ],
   "categories": [
