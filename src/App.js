@@ -6,6 +6,7 @@ import Contact from './components/pages/Contact'
 import NavBar from './components/layout/NavBar';
 import Footer from './components/layout/Footer'
 import NewProject from './components/pages/NewProject'
+import Project from './components/pages/Project';
 
 import Container from './components/layout/Container'
 
@@ -20,6 +21,7 @@ function App() {
             <Route path='/empresa'><Company /></Route>
             <Route path='/contato'><Contact /></Route>
             <Route path='/newproject'><NewProject /></Route>
+            <Route path='/project/:id'><Project /></Route>
           </Container>
         </Switch>
         <Footer />
